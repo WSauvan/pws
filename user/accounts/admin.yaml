@@ -1,0 +1,11 @@
+email: william.sauvan@gmail.com
+fullname: 'Sauvan William'
+title: Admin
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$2/X9Q93oYs3duNrmAj.rqOKPAAEAkCiJSndvwKQrlJJQSDwgWGiHu
