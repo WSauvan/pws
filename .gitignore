@@ -1,0 +1,139 @@
+# Created by .gitignore support plugin (hsz.mobi)
+
+# Dossier de cache
+application/data/cache/
+!application/data/cache/.gitkeep
+
+# Dossier de log
+application/data/log/
+!application/data/log/.gitkeep
+
+# Dossier qui contient les scripts PHP générés
+application/data/params/*.php
+!application/data/params/.gitkeep
+
+# Dossier temporaire
+application/data/tmp/
+!application/data/tmp/.gitkeep
+
+# Dossier des traductions PHP générées
+application/data/translations/
+!application/data/translations/.gitkeep
+
+# Dossier d'upload (général)
+public/upload/
+!public/upload/.gitkeep
+
+# Dossier d'upload des documents
+public/upload/doc/
+!public/upload/doc/.gitkeep
+
+# Plugin loader cache
+application/data/pluginLoaderCache.php
+
+# Zend core library (if not in the include_path)
+library/Zend/
+
+# CSS & JS cache
+.sass-cache/
+node_modules/
+
+# Sourcemaps
+public/css/**/*.map
+public/js/min/**/*.map
+
+# UNIX files
+.bash_history
+.ssh/
+
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+### PhpStorm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+/*.iml
+
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the follwing:
+
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
